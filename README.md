@@ -1,4 +1,4 @@
 ### Hi there 👋
 
-- 🤔 How to Fack me?
+- 🤔 How to Fuck me?
 - 🌱 Give me Green hat！
