@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
 
     steps:
@@ -17,12 +17,14 @@ jobs:
         uses: Platane/snk@master
         id: snake-gif
         with:
-          github_user_name: ${{ github.repository_owner }}
-          gif_out_path: ./assets/github-contribution-grid-snake.gif
-          svg_out_path: ./assets/github-contribution-grid-snake.svg
+          github_user_name: cuilan
+          gif_out_path: dist/github-contribution-grid-snake.gif
+          svg_out_path: dist/github-contribution-grid-snake.svg
 
       - name: Push to GitHub
-        uses: EndBug/add-and-commit@v7.2.1
+        uses: crazy-max/ghaction-github-pages@v2.5.0
         with:
-          branch: output
-          message: 'Generate Contribution Snake'      
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
