@@ -7,6 +7,8 @@
 
 ⏳ Year progess ${progessBarOfThisYear} ${(progessBarOfThisYear * 100).toFixed(2)} %
 
+---
+
 ⏰ Updated on ${new Date.toUTCString()}
 
 ### My Github Contributions
