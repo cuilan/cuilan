@@ -25,7 +25,7 @@ const readme = `\
 
 ---
 
-⏰ Updated on ${new Date.toUTCString()}
+⏰ Updated on ${new Date().toUTCString()}
 
 ### My Github Contributions
 

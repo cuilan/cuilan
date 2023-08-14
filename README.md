@@ -5,11 +5,11 @@
 
 ### This Year
 
-⏳ Year progess ${progessBarOfThisYear} ${(progessBarOfThisYear * 100).toFixed(2)} %
+⏳ Year progess ${progressBarOfThisYear} ${(progressBarOfThisYear * 100).toFixed(2)} %
 
 ---
 
-⏰ Updated on ${new Date.toUTCString()}
+⏰ Updated on ${new Date().toUTCString()}
 
 ### My Github Contributions
 
