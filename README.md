@@ -5,13 +5,15 @@
 
 ### This Year
 
-⏳ Year progess ${progressBarOfThisYear} ${(progressBarOfThisYear * 100).toFixed(2)} %
+⏳ Year progess { ██████████████████▁▁▁▁▁▁▁▁▁▁▁▁ } NaN %
 
 ---
 
-⏰ Updated on ${new Date().toUTCString()}
+⏰ Updated on Mon, 14 Aug 2023 07:48:24 GMT
 
 ### My Github Contributions
 
 ![](https://raw.githubusercontent.com/cuilan/cuilan/output/github-contribution-grid-snake.svg#gh-dark-mode-only)
 ![](https://raw.githubusercontent.com/cuilan/cuilan/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+
+
