@@ -3,4 +3,4 @@
 - 🤔 How to Fuck me?
 - 🌱 Give me Green hat！
 
-![snake](https://raw.githubusercontent.com/cuilan/output/assets/github-contribution-grid-snake.svg)
+![snake](https://raw.githubusercontent.com/cuilan/output/dist/github-contribution-grid-snake.svg)
