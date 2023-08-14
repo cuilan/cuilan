@@ -21,7 +21,7 @@ const readme = `\
 
 ### This Year
 
-⏳ Year progess ${progessBarOfThisYear} ${(progessBarOfThisYear * 100).toFixed(2)} %
+⏳ Year progess ${progressBarOfThisYear} ${(progressBarOfThisYear * 100).toFixed(2)} %
 
 ---
 
