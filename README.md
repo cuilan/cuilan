@@ -7,9 +7,9 @@
 
 ### This Year
 
-⏳ Year progress ${progressBarOfThisYear} ${(progressOfThisYear * 100).toFixed(2)} %
+⏳ Year progress { ██████████████████▁▁▁▁▁▁▁▁▁▁▁▁ } 61.73 %
 
-⏰ Updated on ${new Date().toUTCString()}
+⏰ Updated on Mon, 14 Aug 2023 07:54:27 GMT
 
 ---
 
