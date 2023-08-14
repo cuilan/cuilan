@@ -22,5 +22,7 @@
 
 ### Stats
 
-[![cuilan's GitHub stats](https://github-readme-stats.vercel.app/api?username=cuilan)](https://github.com/cuilan/github-readme-stats)
+[![cuilan's GitHub stats](https://github-readme-stats.vercel.app/api?username=cuilan&show_icons=true)](https://github.com/cuilan)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=cuilan&layout=compact&langs_count=10)](https://github.com/cuilan)
 
+hide_border=true

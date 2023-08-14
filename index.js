@@ -38,7 +38,7 @@ const readme = `\
 
 ### Stats
 
-[![cuilan's GitHub stats](https://github-readme-stats.vercel.app/api?username=cuilan)](https://github.com/cuilan/github-readme-stats)
+[![cuilan's GitHub stats](https://github-readme-stats.vercel.app/api?username=cuilan&show_icons=true)](https://github.com/cuilan)
 
 
 \
