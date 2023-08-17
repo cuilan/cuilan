@@ -15,8 +15,8 @@
 
 ### My Github Contributions
 
-![](https://raw.githubusercontent.com/cuilan/cuilan/output/dist/github-contribution-grid-snake.svg#gh-dark-mode-only)
-![](https://raw.githubusercontent.com/cuilan/cuilan/output/dist/github-contribution-grid-snake.svg#gh-light-mode-only)
+![](https://raw.githubusercontent.com/cuilan/cuilan/output/github-contribution-grid-snake.svg#gh-dark-mode-only)
+![](https://raw.githubusercontent.com/cuilan/cuilan/output/github-contribution-grid-snake.svg#gh-light-mode-only)
 
 ---
 
