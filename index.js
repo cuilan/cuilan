@@ -9,15 +9,16 @@ function generateProgressBar() {
     const passedProgressBarIndex = parseInt(progressOfThisYear * progressBarCapacity)
     const progressBar =
       '█'.repeat(passedProgressBarIndex) +
-      '▁'.repeat(progressBarCapacity - passedProgressBarIndex)
-    return `{ ${progressBar} }`
+      '▒' +
+      '░'.repeat(progressBarCapacity - passedProgressBarIndex)
+    return ` ${progressBar} `
 }
 
 const readme = `\
 ## Hi there 👋
 
 - 🤔 How to Fuck me?
-- 🌱 Give me Green hat！
+- 🌱 Give me Green hat!
 
 ---
 

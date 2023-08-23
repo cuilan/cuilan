@@ -1,13 +1,13 @@
 ## Hi there 👋
 
 - 🤔 How to Fuck me?
-- 🌱 Give me Green hat！
+- 🌱 Give me Green hat!
 
 ---
 
 ### This Year
 
-⏳ Year progress { ███████████████████▁▁▁▁▁▁▁▁▁▁▁ } 64.12 %
+⏳ Year progress  ███████████████████▒░░░░░░░░░░░  64.17 %
 
 ⏰ Updated on Wed, 23 Aug 2023 00:41:34 GMT
 
