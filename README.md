@@ -2,7 +2,7 @@
 
 - 🤔 How to Fuck me?
 - 🌱 Give me Green hat!
-
+- 👩🏻 Coding makes you poor, rich women make you happy!
 ---
 
 ### This Year
