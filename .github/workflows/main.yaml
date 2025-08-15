@@ -1,0 +1,48 @@
+name: Progress Bar CI
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+      
+      - name: Update README.md
+        run: node index.js > README.md
+      
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit change & Push
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '602646761+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          
+          # 检查最后一次提交是否是 bot 提交
+          LAST_COMMIT_MSG=$(git log -1 --pretty=%B)
+          if [[ "$LAST_COMMIT_MSG" == "bot: update README.md automatically" ]]; then
+            # 如果是 bot 提交，则修改最后一次提交
+            git commit --amend -m "bot: update README.md automatically"
+            git push --force-with-lease
+          else
+            # 如果不是 bot 提交，则创建新提交
+            git commit -m "bot: update README.md automatically"
+            git push
+          fi
